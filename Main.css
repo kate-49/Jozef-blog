@@ -33,10 +33,21 @@ p {
   font-family: verdana, helvetica;
   margin: 30px 60px 30px 60px; 
 }
+body {
+  padding: 20px 20px 20px 20px;
+}
 .italics {
   font-size: 24px;
-  text-decoration: italics;
+  text-decoration: italic;
   margin-left: 100px;
+}
+ul li {
+  display: inline;
+  font-family: verdana, helvetica;
+  font-color: #5e18af;
+  font-size: 20px;
+  margin-left: 15px;
+  text-decoration: underline;
 }
 .about-heading {
   background: ##ece0fb center top repeat;
