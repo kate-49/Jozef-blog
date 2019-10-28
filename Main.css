@@ -27,9 +27,16 @@ h3 {
   font-weight: ;
   margin: 0 auto 0 auto; 
 }
+p {
+  font-size: 14px;
+  font-color: #000000;
+  font-family: verdana, helvetica;
+  margin: 30px 60px 30px 60px; 
+}
 .italics {
   font-size: 24px;
   text-decoration: italics;
+  margin-left: 100px;
 }
 .about-heading {
   background: ##ece0fb center top repeat;
