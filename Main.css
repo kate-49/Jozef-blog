@@ -12,6 +12,8 @@ h1 {
   font-family: verdana, helvetica;
   font-weight: bold;
   margin: 20 auto 20 auto; 
+  bottom-border: 3px #1a7bbc solid;
+  padding-bottom: 2px;
 }
 h2 {
   font-size: 28px;
@@ -19,6 +21,8 @@ h2 {
   font-family: verdana, helvetica;
   font-weight: bold;
   margin: 20 auto 20 auto; 
+  bottom-border: 2px #1a7bbc dashed;
+  padding-bottom: 1px;
 }
 h3 {
   font-size: 24px;
@@ -26,47 +30,64 @@ h3 {
   font-family: verdana, helvetica;
   font-weight: ;
   margin: 20 auto 20 auto; 
+  padding-bottom: 1px;
 }
 p {
   font-size: 14px;
   font-color: #000000;
   font-family: verdana, helvetica;
   margin: 30px 60px 30px 60px; 
+  padding-bottom: 5px;
 }
-body {
-  padding: 20px 20px 20px 20px;
+ul li {
+  font-family: verdana, helvetica;
+  font-color: #5e18af;
+  font-size: 20px;
+  margin-left: 20px;
 }
 .italics {
   font-size: 24px;
   text-decoration: italic;
   margin-left: 100px;
+  padding-bottom: 5px;
 }
-ul li {
+.nav li {
   display: inline;
   font-family: verdana, helvetica;
   font-color: #5e18af;
   font-size: 20px;
-  margin-left: 15px;
+  margin-left: 50px;
   text-decoration: underline;
+  padding: 3px 0 3px 0;
 }
 .about-heading {
-  background: ##ece0fb center top repeat;
+  background: ##ece0fb center top repeat-x;
+  margin: 5px 5px 5px 5px;
 }
 .about-body {
-  background: background: ##ece0fb center top repeat;
+  background: background: #ece0fb center top repeat;
 }
 .ertus-heading {
-  background: ##ece0fb center top repeat;
+  background: #d31da2 center top repeat-x;
+  margin: 5px 5px 5px 5px;
+  text-color: #ffffff;
 }
 .ertus-body {
-  background: ##ece0fb center top repeat;
+  background: #f9d2ef center top repeat;
+  text-color: #000000
 }
 .young-barbarian-heading {
-  background: ##ece0fb center top repeat;
+  background: #14943d center top repeat-x;
+  margin: 5px 5px 5px 5px;
+  text-color: #ffffff
 }
 .young-barbarian-entry1 {
-  background: ##ece0fb center top repeat;
+  background: #bcf6ce center top repeat;
+  margin-bottom: 15px;
+  text-color: #000000
 }
 .young-barbarian-entry 2 {
-  background: ##ece0fb center top repeat;
+  background: #bcf6ce center top repeat;
+  margin-bottom: 15px;
+  text-color: #000000
 }
