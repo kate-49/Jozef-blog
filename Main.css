@@ -1,1 +1,54 @@
+html, body, h1, h2, h3, h4, ul, ol, li, p, a {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  font: inherit;
+  font-size: 100%;
+}
 
+h1 {
+  font-size: 34px;
+  font-color: #1a7bbc;
+  font-family: verdana, helvetica;
+  font-weight: bold;
+  margin: 0 auto 0 auto; 
+}
+h2 {
+  font-size: 28px;
+  font-color: #1abbc1;
+  font-family: verdana, helvetica;
+  font-weight: bold;
+  margin: 0 auto 0 auto; 
+}
+h3 {
+  font-size: 24px;
+  font-color: ##1fe08c;
+  font-family: verdana, helvetica;
+  font-weight: ;
+  margin: 0 auto 0 auto; 
+}
+.italics {
+  font-size: 24px;
+  text-decoration: italics;
+}
+.about-heading {
+  background: ##ece0fb center top repeat;
+}
+.about-body {
+  background: background: ##ece0fb center top repeat;
+}
+.ertus-heading {
+  background: ##ece0fb center top repeat;
+}
+.ertus-body {
+  background: ##ece0fb center top repeat;
+}
+.young-barbarian-heading {
+  background: ##ece0fb center top repeat;
+}
+.young-barbarian-entry1 {
+  background: ##ece0fb center top repeat;
+}
+.young-barbarian-entry 2 {
+  background: ##ece0fb center top repeat;
+}
