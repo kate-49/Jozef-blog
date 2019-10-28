@@ -4,6 +4,7 @@ html, body, h1, h2, h3, h4, ul, ol, li, p, a {
   margin: 0;
   font: inherit;
   font-size: 100%;
+  background colour: #e4f8fb;
 }
 
 h1 {
@@ -61,11 +62,13 @@ ul li {
   padding: 3px 0 3px 0;
 }
 .about-heading {
-  background: ##ece0fb center top repeat-x;
+  background: #158599 center top repeat-x;
   margin: 5px 5px 5px 5px;
+  text-colour: #ffffff;
 }
 .about-body {
-  background: background: #ece0fb center top repeat;
+  background: background: #b7ecf5 center top repeat;
+  text-colour: #000000;
 }
 .ertus-heading {
   background: #d31da2 center top repeat-x;
