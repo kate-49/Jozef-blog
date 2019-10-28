@@ -46,6 +46,10 @@ ul li {
   font-size: 20px;
   margin-left: 20px;
 }
+a {
+  font-family: verdana, helvetica;
+  font-colour: #60159d;
+}
 .italics {
   font-size: 24px;
   text-decoration: italic;
