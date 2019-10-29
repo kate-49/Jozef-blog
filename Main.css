@@ -52,7 +52,7 @@ a {
 }
 .italics {
   font-size: 24px;
-  text-decoration: italic;
+  font-style: italic;
   margin-left: 100px;
   padding-bottom: 5px;
 }
