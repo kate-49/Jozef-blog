@@ -32,7 +32,6 @@ h3 {
   font-size: 24px;
   font-color: ##1fe08c;
   font-family: verdana, helvetica;
-  font-weight: ;
   padding: 0 10px 1px 10px; 
   text-align: center;
 }
@@ -41,13 +40,11 @@ p {
   font-color: #000000;
   font-family: verdana, helvetica;
   text-align: center;
-  padding: 2px 40px 2px 40px;
 }
 ul li {
   font-family: verdana, helvetica;
   font-color: #5e18af;
   font-size: 20px;
-  padding-left: 20px;
   text-align: center;
 }
 a {
@@ -57,8 +54,8 @@ a {
 .italics {
   font-size: 18px;
   font-style: italic;
-  padding-left: 80px;
-  padding-right: 80px;
+  padding-left: 30px;
+  padding-right: 30px;
   padding-bottom: 3px;
 }
 .nav {
