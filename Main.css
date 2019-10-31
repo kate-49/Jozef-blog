@@ -1,7 +1,7 @@
 html, body, h1, h2, h3, h4, ul, ol, li, p, a {
   padding: 20px;
-  border: 20px;
-  margin: 50px;
+  border: 0px
+  margin: 0 50px 0 50px;
   font: inherit;
   font-size: 100%;
   background colour: #e4f8fb;
@@ -12,8 +12,8 @@ h1 {
   font-color: #1a7bbc;
   font-family: verdana, helvetica;
   font-weight: bold;
-  margin: 20 auto 20 auto; 
-  bottom-border: 3px #1a7bbc solid;
+  margin: 10 auto 10 auto; 
+  bottom-border: 3px #8D03F7 solid;
   padding-bottom: 2px;
 }
 h2 {
@@ -21,8 +21,8 @@ h2 {
   font-color: #1abbc1;
   font-family: verdana, helvetica;
   font-weight: bold;
-  margin: 20 auto 20 auto; 
-  bottom-border: 2px #1a7bbc dashed;
+  margin: 10 auto 10 auto; 
+  bottom-border: 2px #8D03F7 solid;
   padding-bottom: 1px;
 }
 h3 {
@@ -30,15 +30,16 @@ h3 {
   font-color: ##1fe08c;
   font-family: verdana, helvetica;
   font-weight: ;
-  margin: 20 auto 20 auto; 
+  margin: 10 auto 10 auto; 
   padding-bottom: 1px;
 }
 p {
-  font-size: 14px;
+  font-size: 16px;
   font-color: #000000;
   font-family: verdana, helvetica;
   margin: 30px 60px 30px 60px; 
   padding-bottom: 5px;
+ 
 }
 ul li {
   font-family: verdana, helvetica;
@@ -51,7 +52,7 @@ a {
   font-colour: #60159d;
 }
 .italics {
-  font-size: 24px;
+  font-size: 18px;
   font-style: italic;
   margin-left: 100px;
   padding-bottom: 5px;
@@ -60,8 +61,8 @@ a {
   display: inline;
   font-family: verdana, helvetica;
   font-color: #5e18af;
-  font-size: 20px;
-  margin-left: 50px;
+  font-size: 18px;
+  margin: 10px 20px 10px 20px;
   text-decoration: underline;
   padding: 3px 0 3px 0;
 }
@@ -79,11 +80,11 @@ a {
   margin: 5px 5px 5px 5px;
   text-color: #ffffff;
   padding: 0 auto 0 auto;
-  border: dotted #ffffff;
+  border-bottom: dotted #ffffff 3px;
 }
 .ertus-body {
-  background: #f9d2ef center top repeat;
-  text-color: #000000
+  background: #c79ce8 center top repeat;
+  text-color: #55088f
   margin: 10px 10px 10px 10px;
 }
 .young-barbarian-heading {
