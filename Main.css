@@ -67,9 +67,7 @@ a {
   font-family: verdana, helvetica;
   font-color: #5e18af;
   font-size: 18px;
-  margin: 10px auto 10px auto;
   text-decoration: underline;
-  padding: 3px 0 3px 0;
   border: 1px #C8A1E6 dotted;
 }
 .about-heading {
@@ -85,18 +83,14 @@ a {
   background: #d31da2 center top repeat;
   margin: 5px 5px 5px 5px;
   text-color: #ffffff;
-  padding: 0 auto 0 auto;
   border-bottom: dotted #ffffff 3px;
 }
 .ertus-header h1 {
-  margin: 5px;
   border: 5px solid #C8A1E6;
 }
 .ertus-body {
   background: #c79ce8 center top repeat;
   text-color: #55088f
-  margin: 10px 10px 10px 10px;
-  padding: 0 120px 30px 120px;
 }
 .ertus-body p {
   border-top: dotted 1px #ffffff;
