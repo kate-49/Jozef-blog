@@ -87,6 +87,10 @@ a {
   padding: 0 auto 0 auto;
   border-bottom: dotted #ffffff 3px;
 }
+.ertus-header h1 {
+  margin: 5px;
+  border: 5px solid #C8A1E6;
+}
 .ertus-body {
   background: #c79ce8 center top repeat;
   text-color: #55088f
@@ -95,6 +99,8 @@ a {
 }
 .ertus-body p {
   border-top: dotted 1px #ffffff;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 .young-barbarian-heading {
   background: #14943d center top repeat-x;
