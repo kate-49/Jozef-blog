@@ -1,7 +1,7 @@
 html, body, h1, h2, h3, h4, ul, ol, li, p, a {
-  padding: 0;
-  border: 0;
-  margin: 0;
+  padding: 20px;
+  border: 20px;
+  margin: 50px;
   font: inherit;
   font-size: 100%;
   background colour: #e4f8fb;
@@ -78,10 +78,12 @@ a {
   background: #d31da2 center top repeat-x;
   margin: 5px 5px 5px 5px;
   text-color: #ffffff;
+  padding: 0 auto 0 auto;
 }
 .ertus-body {
   background: #f9d2ef center top repeat;
   text-color: #000000
+  border: solid #d31da2;
 }
 .young-barbarian-heading {
   background: #14943d center top repeat-x;
