@@ -1,7 +1,7 @@
 html, body, h1, h2, h3, h4, ul, ol, li, p, a {
   padding: 0px;
   border: 0px
-  margin: 0 auto 0 auto;
+  margin: 0 10px 0 10px;
   font: inherit;
   font-size: 100%;
   background colour: #e4f8fb;
@@ -13,7 +13,7 @@ h1 {
   font-color: #1a7bbc;
   font-family: verdana, helvetica;
   font-weight: bold;
-  margin: 10 auto 10 auto; 
+  padding: 5px 5px 5px 5px;
   bottom-border: 3px #8D03F7 solid;
   padding-bottom: 2px;
   text-align: center;
@@ -23,7 +23,7 @@ h2 {
   font-color: #1abbc1;
   font-family: verdana, helvetica;
   font-weight: bold;
-  margin: 10 auto 10 auto; 
+  padding: 3px 3px 3px 3px;
   bottom-border: 2px #8D03F7 solid;
   padding-bottom: 1px;
   text-align: center;
@@ -33,8 +33,7 @@ h3 {
   font-color: ##1fe08c;
   font-family: verdana, helvetica;
   font-weight: ;
-  margin: 10 auto 10 auto; 
-  padding-bottom: 1px;
+  padding: 0 10px 1px 10px; 
   text-align: center;
 }
 p {
@@ -42,13 +41,15 @@ p {
   font-color: #000000;
   font-family: verdana, helvetica;
   text-align: center;
+  padding: 2px 40px 2px 40px;
  
 }
 ul li {
   font-family: verdana, helvetica;
   font-color: #5e18af;
   font-size: 20px;
-  margin-left: 20px;
+  padding-left: 20px;
+  text-align: center;
 }
 a {
   font-family: verdana, helvetica;
