@@ -15,6 +15,7 @@ h1 {
   margin: 10 auto 10 auto; 
   bottom-border: 3px #8D03F7 solid;
   padding-bottom: 2px;
+  text-align: center;
 }
 h2 {
   font-size: 28px;
@@ -24,6 +25,7 @@ h2 {
   margin: 10 auto 10 auto; 
   bottom-border: 2px #8D03F7 solid;
   padding-bottom: 1px;
+  text-align: center;
 }
 h3 {
   font-size: 24px;
@@ -32,6 +34,7 @@ h3 {
   font-weight: ;
   margin: 10 auto 10 auto; 
   padding-bottom: 1px;
+  text-align: center;
 }
 p {
   font-size: 16px;
@@ -61,9 +64,10 @@ a {
   font-family: verdana, helvetica;
   font-color: #5e18af;
   font-size: 18px;
-  margin: 10px 20px 10px 20px;
+  margin: 10px auto 10px auto;
   text-decoration: underline;
   padding: 3px 0 3px 0;
+  border: 1px #C8A1E6 dotted;
 }
 .about-heading {
   background: #158599 center top repeat-x;
@@ -85,6 +89,10 @@ a {
   background: #c79ce8 center top repeat;
   text-color: #55088f
   margin: 10px 10px 10px 10px;
+  bottom-padding: 30px;
+}
+.ertus-body p {
+  border-top: dotted 1px #ffffff;
 }
 .young-barbarian-heading {
   background: #14943d center top repeat-x;
