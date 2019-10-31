@@ -1,5 +1,5 @@
 html, body, h1, h2, h3, h4, ul, ol, li, p, a {
-  padding: 20px;
+  padding: 0px;
   border: 0px
   margin: 0 auto 0 auto;
   font: inherit;
@@ -41,7 +41,7 @@ p {
   font-size: 16px;
   font-color: #000000;
   font-family: verdana, helvetica;
-  padding-bottom: 0 5px 20px 20px;
+  padding: 2px 20px 2px 20px;
  
 }
 ul li {
@@ -95,12 +95,10 @@ a {
   background: #c79ce8 center top repeat;
   text-color: #55088f
   margin: 10px 10px 10px 10px;
-  bottom-padding: 30px;
+  padding: 0 120px 30px 120px;
 }
 .ertus-body p {
   border-top: dotted 1px #ffffff;
-  padding-left: 120px;
-  padding-right: 120px;
 }
 .young-barbarian-heading {
   background: #14943d center top repeat-x;
