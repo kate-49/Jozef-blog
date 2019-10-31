@@ -5,6 +5,7 @@ html, body, h1, h2, h3, h4, ul, ol, li, p, a {
   font: inherit;
   font-size: 100%;
   background colour: #e4f8fb;
+  width: 12000px;
 }
 
 h1 {
