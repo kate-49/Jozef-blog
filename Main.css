@@ -37,7 +37,6 @@ p {
   font-size: 16px;
   font-color: #000000;
   font-family: verdana, helvetica;
-  margin: 30px 60px 30px 60px; 
   padding-bottom: 5px;
  
 }
@@ -55,7 +54,7 @@ a {
   font-size: 18px;
   font-style: italic;
   margin-left: 100px;
-  padding-bottom: 5px;
+  padding-bottom: 3px;
 }
 .nav li {
   display: inline;
