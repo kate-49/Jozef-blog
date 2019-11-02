@@ -40,6 +40,7 @@ p {
   font-color: #000000;
   font-family: verdana, helvetica;
   text-align: center;
+  padding: 2px 2px 2px 2px;
 }
 ul li {
   font-family: verdana, helvetica;
@@ -54,9 +55,7 @@ a {
 .italics {
   font-size: 18px;
   font-style: italic;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-bottom: 3px;
+  padding: 2px 30px 2px 30px;
 }
 .nav {
   background-colour: #D4F7F5;
@@ -92,8 +91,9 @@ a {
   background: #c79ce8 center top repeat;
   text-color: #55088f
 }
-.ertus-body p {
+.ertus-body p:first-child {
   border-top: dotted 1px #ffffff;
+  padding-top: 2px;
 }
 .young-barbarian-heading {
   background: #14943d center top repeat-x;
