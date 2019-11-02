@@ -1,11 +1,10 @@
 html, body, h1, h2, h3, h4, ul, ol, li, p, a {
-  padding: 0px;
-  border: 0px
-  margin: 0px;
+  padding: 20px;
+  border: 20px;
+  margin: 50px;
   font: inherit;
   font-size: 100%;
   background colour: #e4f8fb;
-  width: 1000px;
 }
 
 h1 {
@@ -13,8 +12,8 @@ h1 {
   font-color: #1a7bbc;
   font-family: verdana, helvetica;
   font-weight: bold;
-  padding: 5px 5px 5px 5px;
-  bottom-border: 3px #8D03F7 solid;
+  margin: 20 auto 20 auto; 
+  bottom-border: 3px #1a7bbc solid;
   padding-bottom: 2px;
   text-align: center;
 }
@@ -23,8 +22,8 @@ h2 {
   font-color: #1abbc1;
   font-family: verdana, helvetica;
   font-weight: bold;
-  padding: 3px 3px 3px 3px;
-  bottom-border: 2px #8D03F7 solid;
+  margin: 20 auto 20 auto; 
+  bottom-border: 2px #1a7bbc dashed;
   padding-bottom: 1px;
   text-align: center;
 }
@@ -32,41 +31,47 @@ h3 {
   font-size: 24px;
   font-color: ##1fe08c;
   font-family: verdana, helvetica;
-  padding: 0 10px 1px 10px; 
+  font-weight: ;
+  margin: 10 auto 10 auto;
+  padding-bottom: 1px;
   text-align: center;
+}
+body {
+  background-color: #CEECF5;
 }
 p {
   font-size: 16px;
   font-color: #000000;
   font-family: verdana, helvetica;
-  text-align: center;
-  padding: 5px 5px 5px 5px;
+  margin: 30px 60px 30px 60px; 
+  padding-bottom: 5px;
+  line-height: 30px;
 }
 ul li {
   font-family: verdana, helvetica;
   font-color: #5e18af;
   font-size: 20px;
-  text-align: center;
+  margin-left: 20px;
 }
+
 a {
   font-family: verdana, helvetica;
   font-colour: #60159d;
 }
 .italics {
-  font-size: 18px;
-  font-style: italic;
-}
-.nav {
-  background-colour: #D4F7F5;
-  padding: 2px auto 2px auto;
+  font-size: 24px;
+  text-decoration: italic;
+  margin-left: 100px;
+  padding-bottom: 5px;
 }
 .nav li {
   display: inline;
   font-family: verdana, helvetica;
   font-color: #5e18af;
-  font-size: 18px;
+  font-size: 20px;
+  margin-left: 50px;
   text-decoration: underline;
-  border: 1px #C8A1E6 dotted;
+  padding: 3px 0 3px 0;
 }
 .about-heading {
   background: #158599 center top repeat-x;
@@ -77,35 +82,53 @@ a {
   background: background: #b7ecf5 center top repeat;
   text-colour: #000000;
 }
-.ertus-header {
-  background: #d31da2 center top repeat;
+.ertus-heading {
+  background: #d31da2 center top repeat-x;
   margin: 5px 5px 5px 5px;
-  text-color: #ffffff;
-  border-bottom: dotted #ffffff 3px;
-}
-.ertus-header h1 {
-  border: 5px solid #C8A1E6;
+  font-color: #ffffff;
+  padding: 0 auto 0 auto;
 }
 .ertus-body {
-  background: #c79ce8 center top repeat;
-  text-color: #55088f
+  background: #f9d2ef center top repeat;
+  font-color: #000000
+  border: solid #d31da2;
 }
-.ertus-body p:first-child {
-  border-top: dotted 1px #ffffff;
-  padding-top: 2px;
+.young-barbarian-header {
+  background: #B3CBE3;
+  margin: 20px 5px 0px 5px;
+  padding: 35px 10px 35px 10px;
+  border: 4px dotted #104880;
 }
-.young-barbarian-heading {
-  background: #14943d center top repeat-x;
+.color1 {
+  background: #4C84BD;
+  padding: 1px 1px 1px 1px;
+  border: 4px dotted #104880;
+  margin: 90px 1px 120px 1px;
+  font-color: #B3CBE3;
+}
+.color2 {
+  background: #B3CBE3;
+  padding: 1px 1px 1px 1px;
+  border: 4px dotted #104880;
+  margin: 90px 1px 120px 1px;
+  font-color: #4C84BD;
+
+}
+.young-barbarian-header h1 {
+  font-size: 38px;
+  font-weight: bolder;
+  text-align: center;
   margin: 5px 5px 5px 5px;
-  text-color: #ffffff
+  padding: 10px 10px 0 10px;
+  font-color: #4C84BD;
 }
-.young-barbarian-entry1 {
-  background: #bcf6ce center top repeat;
-  margin-bottom: 15px;
-  text-color: #000000
+.color2 h3 {
+  text-decoration: underline;
+  font-color: #4C84BD;
 }
-.young-barbarian-entry 2 {
-  background: #bcf6ce center top repeat;
-  margin-bottom: 15px;
-  text-color: #000000
+.signature {
+  font-family: "bradley hand", arial;
+  font-weight: bold;
+  font-size: 22px;
 }
+
