@@ -1,134 +1,187 @@
 html, body, h1, h2, h3, h4, ul, ol, li, p, a {
-  padding: 20px;
-  border: 20px;
-  margin: 50px;
+  padding: 0;
+  border: 0;
+  margin: 0;
   font: inherit;
   font-size: 100%;
-  background colour: #e4f8fb;
+  background-color: #e4f8fb;
+  width: 1000px;
 }
-
+body {
+  vertical-align: middle;
+  margin: 10px 80px 10px 80px;
+}
 h1 {
-  font-size: 34px;
-  font-color: #1a7bbc;
+  font-size: 40px;
+  color: #1a7bbc;
   font-family: verdana, helvetica;
-  font-weight: bold;
-  margin: 20 auto 20 auto; 
-  bottom-border: 3px #1a7bbc solid;
+  font-weight: bolder;
+  padding: 25px auto 25px auto;
   padding-bottom: 2px;
   text-align: center;
+  bottom-border: 3px #1a7bbc solid;
+  text-decoration: underline;
 }
 h2 {
-  font-size: 28px;
-  font-color: #1abbc1;
+  font-size: 30px;
+  color: #1abbc1;
   font-family: verdana, helvetica;
   font-weight: bold;
-  margin: 20 auto 20 auto; 
-  bottom-border: 2px #1a7bbc dashed;
-  padding-bottom: 1px;
   text-align: center;
+  padding: 40px auto 40px auto;
 }
 h3 {
   font-size: 24px;
-  font-color: ##1fe08c;
+  color: ##1fe08c;
   font-family: verdana, helvetica;
-  font-weight: ;
-  margin: 10 auto 10 auto;
-  padding-bottom: 1px;
+  padding: 0 10px 1px 10px; 
   text-align: center;
-}
-body {
-  background-color: #CEECF5;
+  margin: 10px auto 10px auto;
 }
 p {
   font-size: 16px;
-  font-color: #000000;
+  width: 800px;
   font-family: verdana, helvetica;
-  margin: 30px 60px 30px 60px; 
-  padding-bottom: 5px;
-  line-height: 30px;
-}
-ul li {
-  font-family: verdana, helvetica;
-  font-color: #5e18af;
-  font-size: 20px;
-  margin-left: 20px;
+  padding: 20px 30px 20px 30px;
+  margin: 5px auto 5px auto;
+  line-height: 36px;
 }
 
+ul li {
+  font: verdana, helvetica;
+  color: #5e18af;
+  margin-left: 50px;
+}
 a {
-  font-family: verdana, helvetica;
-  font-colour: #60159d;
+  font: verdana, helvetica;
+  color: #60159d;
+}
+body img {
+  max-width: 800px;
+  max-height: 400px;
+  margin: auto auto auto auto;
+  display: block;
+  padding: 30px 30px 30px 30px;
+}
+.nav {
+  background: #D4F7F5;
+  padding:40px 100px 40px 100px;
+  border: #55088f solid 4px;
+}
+.nav li {
+  display: inline;
+  padding: 30px auto 30px auto;
+  font-weight: bold;
+  color: #5e18af;
+  font-size: 30px;
+  text-decoration: underline;
+  border: 2px #C8A1E6 dotted;
+}
+.about-heading {
+  background: #158599;
+  margin: 5px 5px 5px 5px;
+  color: #ffffff;
+}
+.about-body {
+  background: #b7ecf5;
+  color: #000000;
+}
+.about-body p {
+  text-align: center;
+  font-weight: bold;
+}
+.about-heading img {
+  width: 800px;
+  height: 200px;
+  margin: auto auto auto auto;
+  display: block;
+  padding: 30px 30px 30px 30px;
+}
+.col1 {
+  float:left;
+  width:100px;
+  background-color: #E8F6F7;
+}
+.col2 {
+  float:left;
+  width:200px;
+  margin-left:30px;
+  background-color: #f2dede;
+}
+.ertus-header {
+  background-image: url(photos/sakura.jpg);
+  margin: 5px 5px 5px 5px;
+}
+.ertus-header h1 {
+  border: 5px solid #C8A1E6;
+}
+.ertus-body {
+  background: #c79ce8;
+  color: #55088f
 }
 .italics {
-  font-size: 24px;
+  font-size: 18px;
+  font-style: italic;
   text-decoration: italic;
   margin-left: 100px;
   padding-bottom: 5px;
 }
-.nav li {
-  display: inline;
-  font-family: verdana, helvetica;
-  font-color: #5e18af;
-  font-size: 20px;
-  margin-left: 50px;
-  text-decoration: underline;
-  padding: 3px 0 3px 0;
+.ertus-body p:first-child {
+  border-top: dotted 1px #ffffff;
+  padding-top: 2px;
 }
-.about-heading {
-  background: #158599 center top repeat-x;
-  margin: 5px 5px 5px 5px;
-  text-colour: #ffffff;
+.young-barbarian-heading {
+  background: #14943d;
+  padding: 30px 0 30px 0;
+  margin: 30px 30px 30px 30px;
+  color: #5FA2E6;
 }
-.about-body {
-  background: background: #b7ecf5 center top repeat;
-  text-colour: #000000;
-}
-.ertus-heading {
-  background: #d31da2 center top repeat-x;
-  margin: 5px 5px 5px 5px;
-  font-color: #ffffff;
-  padding: 0 auto 0 auto;
-}
-.ertus-body {
-  background: #f9d2ef center top repeat;
-  font-color: #000000
-  border: solid #d31da2;
-}
-.young-barbarian-header {
-  background: #B3CBE3;
-  margin: 20px 5px 0px 5px;
-  padding: 35px 10px 35px 10px;
-  border: 4px dotted #104880;
+.young-barbarian h2 {
+  padding: 0 0 30px 0;
+  color: #1a7bbc;
 }
 .color1 {
   background: #4C84BD;
-  padding: 1px 1px 1px 1px;
   border: 4px dotted #104880;
-  margin: 90px 1px 120px 1px;
-  font-color: #B3CBE3;
+  color: #104880;
+  padding: 40px 0 40px 0;
+  margin: 50px 10px 50px 10px;
 }
 .color2 {
   background: #B3CBE3;
-  padding: 1px 1px 1px 1px;
   border: 4px dotted #104880;
-  margin: 90px 1px 120px 1px;
-  font-color: #4C84BD;
-
+  color: #5FA2E6;
+  padding: 40px 0 40px 0;
+  margin: 50px 10px 50px 10px;
 }
-.young-barbarian-header h1 {
-  font-size: 38px;
-  font-weight: bolder;
-  text-align: center;
-  margin: 5px 5px 5px 5px;
-  padding: 10px 10px 0 10px;
-  font-color: #4C84BD;
+.color3 {
+  background: #5FA2E6;
+  border: 4px dotted #104880;
+  color: #104880;
+  padding: 40px 0 40px 0;
+  margin: 50px 10px 50px 10px;
 }
-.color2 h3 {
-  text-decoration: underline;
-  font-color: #4C84BD;
-}
-.signature {
+.signature1 {
   font-family: "bradley hand", arial;
   font-weight: bold;
   font-size: 22px;
+  text-align: center;
+}
+.signature2 {
+  font-family: "American Typewriter", arial;
+  font-weight: bold;
+  font-size: 22px;
+  text-align: center;
+}
+.ertus-body1 {
+  background-image: url(photos/ertus.png);
+  background-position: center, right;
+  paddng: 30px 30px 30px 30px;
+}
+.ertus-body1 h2 {
+  border-bottom: 4px solid #104880;
+  padding: 10px 0 10px 0;
+  margin: 30px 0 30px;
+  font-size: 40px;
 }
 
