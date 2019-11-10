@@ -5,11 +5,10 @@ html, body, h1, h2, h3, h4, ul, ol, li, p, a {
   font: inherit;
   font-size: 100%;
   background-color: #e4f8fb;
-  width: 1000px;
 }
 body {
   vertical-align: middle;
-  margin: 10px 80px 10px 80px;
+  margin: auto;
 }
 h1 {
   font-size: 40px;
@@ -32,7 +31,7 @@ h2 {
 }
 h3 {
   font-size: 24px;
-  color: ##1fe08c;
+  color: #1fe08c;
   font-family: verdana, helvetica;
   padding: 0 10px 1px 10px; 
   text-align: center;
@@ -43,17 +42,17 @@ p {
   width: 800px;
   font-family: verdana, helvetica;
   padding: 20px 30px 20px 30px;
-  margin: 5px auto 5px auto;
+  margin: 5px auto 30px auto;
   line-height: 36px;
 }
 
 ul li {
-  font: verdana, helvetica;
+  font-family: verdana, helvetica;
   color: #5e18af;
   margin-left: 50px;
 }
 a {
-  font: verdana, helvetica;
+  font-family: verdana, helvetica;
   color: #60159d;
 }
 body img {
@@ -65,15 +64,16 @@ body img {
 }
 .nav {
   background: #D4F7F5;
-  padding:40px 100px 40px 100px;
-  border: #55088f solid 4px;
+  padding:40px auto 40px auto;
+  border: #55088f solid 2px;
+  width: 1000px;
+  margin: 40px auto 40px auto;
 }
 .nav li {
   display: inline;
-  padding: 30px auto 30px auto;
   font-weight: bold;
   color: #5e18af;
-  font-size: 30px;
+  font-size: 26px;
   text-decoration: underline;
   border: 2px #C8A1E6 dotted;
 }
@@ -97,19 +97,13 @@ body img {
   display: block;
   padding: 30px 30px 30px 30px;
 }
-.col1 {
-  float:left;
-  width:100px;
-  background-color: #E8F6F7;
-}
-.col2 {
-  float:left;
-  width:200px;
-  margin-left:30px;
-  background-color: #f2dede;
+.about-heading li {
+  color: darkblue;
+  list-style: square;
 }
 .ertus-header {
-  background-image: url(photos/sakura.jpg);
+  background-image: url(photos/sakura.jpg) ;
+  background-repeat: repeat;
   margin: 5px 5px 5px 5px;
 }
 .ertus-header h1 {
@@ -119,12 +113,10 @@ body img {
   background: #c79ce8;
   color: #55088f
 }
-.italics {
-  font-size: 18px;
-  font-style: italic;
-  text-decoration: italic;
-  margin-left: 100px;
-  padding-bottom: 5px;
+blockquote {
+  font-weight: bold;
+  margin-left: 10%;
+  padding: 0 30px 0 30px;
 }
 .ertus-body p:first-child {
   border-top: dotted 1px #ffffff;
