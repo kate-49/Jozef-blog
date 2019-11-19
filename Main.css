@@ -63,19 +63,17 @@ body img {
   padding: 30px 30px 30px 30px;
 }
 .nav {
-  background: #D4F7F5;
+  background: #158599;
   padding:40px auto 40px auto;
-  border: #55088f solid 2px;
   width: 1000px;
   margin: 40px auto 40px auto;
 }
 .nav li {
   display: inline;
   font-weight: bold;
-  color: #5e18af;
   font-size: 26px;
   text-decoration: underline;
-  border: 2px #C8A1E6 dotted;
+  border: #1a7bbc 1px dotted;
 }
 .about-heading {
   background: #158599;
@@ -100,7 +98,22 @@ body img {
 .about-heading li {
   color: darkblue;
   list-style: square;
+  width: 80%;
+  margin: 4px 15% 4px 15%;
+  font-size: 28px;
 }
+.about-heading li:first-child {
+  padding-top: 15px;
+}
+.about-body p:first-child {
+  padding-top: 15px;
+  border-top: 2px solid #1a7bbc;
+}
+.about-body p:last-child {
+  padding-top: 15px;
+  border-bottom: 2px solid #1a7bbc;
+}
+
 .ertus-header {
   background-image: url(photos/sakura.jpg) ;
   background-repeat: repeat;
@@ -138,6 +151,7 @@ blockquote {
   color: #104880;
   padding: 40px 0 40px 0;
   margin: 50px 10px 50px 10px;
+  opacity: 0.8;
 }
 .color2 {
   background: #B3CBE3;
@@ -145,6 +159,7 @@ blockquote {
   color: #5FA2E6;
   padding: 40px 0 40px 0;
   margin: 50px 10px 50px 10px;
+  opacity: 0.8;
 }
 .color3 {
   background: #5FA2E6;
@@ -152,6 +167,7 @@ blockquote {
   color: #104880;
   padding: 40px 0 40px 0;
   margin: 50px 10px 50px 10px;
+  opacity: 0.8;
 }
 .signature1 {
   font-family: "bradley hand", arial;
@@ -160,8 +176,8 @@ blockquote {
   text-align: center;
 }
 .signature2 {
-  font-family: "American Typewriter", arial;
-  font-weight: bold;
+  font-family: courier, arial;
+  font-weight: medium;
   font-size: 22px;
   text-align: center;
 }
@@ -186,5 +202,16 @@ blockquote {
 .young-barbarian-photo1 img {
   width: 400px;
   height: 800px;
+}
+.color4 p {
+  background: #4C84BD;
+  font-family: courier, courier new;
+  color: #104880;
+}
+.color4 h2 {
+  letter-spacing: 0.2em;
+}
+.color4 h3 {
+  letter-spacing: 0.1em;
 }
 
