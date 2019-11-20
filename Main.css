@@ -127,7 +127,7 @@ iframe {
   justify-content: center;
 }
 .ertus-header {
-  background-image: url(Photos/sakura.jpg) ;
+  background-image: url(photos/sakura.jpg) ;
   background-repeat: repeat;
   margin: 5px 5px 5px 5px;
 }
@@ -194,7 +194,7 @@ blockquote {
   text-align: center;
 }
 .ertus-body1 {
-  background-image: url(photos/ertus.png);
+  background-image: url(Photos/ertus.png);
   background-position: center, right;
   paddng: 30px 30px 30px 30px;
 }
