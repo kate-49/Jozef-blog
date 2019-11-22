@@ -55,6 +55,15 @@ a {
   font-family: verdana, helvetica;
   color: #60159d;
 }
+input {
+  font-size: 120%;
+  color: cadetblue;
+  background-color: beige;
+  border: 2px dotted #104880;
+  border-radius: 4px;
+  padding: 5px 5px 5px 5px;
+  display: block;
+}
 body img {
   max-width: 800px;
   max-height: 800px;
@@ -120,11 +129,25 @@ iframe {
 .rose-tinted2 {
   display: flex;
 }
-.comment {
-  display: flex;
+.media {
+  padding-bottom: 10px;
+  width: 260px;
+  border-bottom: 1px solid #efefef;
 }
-.comment form {
-  justify-content: center;
+fieldset {
+  width: 350px;
+  border: 1px solid #5e18af;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+legend {
+  background-color: #14943d;
+  border: 1px solid #efefef;
+  border-radius: 10px;
+  padding 10px 20px;
+  text-align: left;
+  text-transform: uppercase;
 }
 .ertus-header {
   background-image: url(photos/sakura.jpg) ;
@@ -147,6 +170,23 @@ blockquote {
   border-top: dotted 1px #ffffff;
   padding-top: 2px;
 }
+.ertus-body1 {
+  background-image: url(Photos/ertus.png);
+  background-position: center, right;
+  paddng: 30px 30px 30px 30px;
+}
+.ertus-body1 h2 {
+  border-bottom: 4px solid #104880;
+  padding: 10px 0 10px 0;
+  margin: 30px 0 30px;
+  font-size: 40px;
+}
+.ertus-body1 p {
+  -moz-box-shadow: inset 0 0 10px #777777;
+  -webkit-box-shadow: inset 0 0 10px #777777;
+  box-shadow: inset 0 0 10px #777777;
+  border-radius: 20px;
+}
 .young-barbarian-heading {
   background: #14943d;
   padding: 30px 0 30px 0;
@@ -157,6 +197,31 @@ blockquote {
   padding: 0 0 30px 0;
   color: #1a7bbc;
 }
+.table1 {
+ width: 600px;
+}
+.table1 body {
+  font-family: "Lucida Grande", verdana;
+}
+.table1 th, td {
+  padding: 7px 10px 10px 10px;
+}
+th {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 110%;
+  border-bottom: 2px solid #55088f;
+  border-top: 1px solid #1abbc1;
+  text-align: center;
+}
+td {
+  border: 2px dashed #158599;
+  padding: 15px;
+  border-spacing: 5px 15px;
+}
+tr.even {
+  background-color: #c79ce8;
+}
 .color1 {
   background: #4C84BD;
   border: 4px dotted #104880;
@@ -164,6 +229,8 @@ blockquote {
   padding: 40px 0 40px 0;
   margin: 50px 10px 50px 10px;
   opacity: 0.8;
+  border-radius: 40px 50px;
+  width: 80%;
 }
 .color2 {
   background: #B3CBE3;
@@ -172,6 +239,8 @@ blockquote {
   padding: 40px 0 40px 0;
   margin: 50px 10px 50px 10px;
   opacity: 0.8;
+  border-radius: 40px 50px;
+  width: 80%;
 }
 .color3 {
   background: #5FA2E6;
@@ -180,6 +249,8 @@ blockquote {
   padding: 40px 0 40px 0;
   margin: 50px 10px 50px 10px;
   opacity: 0.8;
+  border-radius: 40px 50px;
+  width: 80%;
 }
 .signature1 {
   font-family: "bradley hand", arial;
@@ -192,17 +263,6 @@ blockquote {
   font-weight: medium;
   font-size: 22px;
   text-align: center;
-}
-.ertus-body1 {
-  background-image: url(Photos/ertus.png);
-  background-position: center, right;
-  paddng: 30px 30px 30px 30px;
-}
-.ertus-body1 h2 {
-  border-bottom: 4px solid #104880;
-  padding: 10px 0 10px 0;
-  margin: 30px 0 30px;
-  font-size: 40px;
 }
 .young-barbarian-header a {
   text-align: center;
